@@ -1,0 +1,24 @@
+html, body, #root, .editor-with-preview {
+    height: 100%;
+}
+
+.editor-with-preview {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.editor-with-preview .editor,
+.editor-with-preview .preview {
+    flex: 1;
+    overflow: scroll;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+h5 {
+    margin: 10px 0;
+}
